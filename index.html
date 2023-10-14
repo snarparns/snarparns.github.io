@@ -7,27 +7,63 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="navbar.css">
         <link rel="stylesheet" href="index.css">
+        <link href="https://fonts.googleapis.com/css2?family=Lexend&display=swap" rel="stylesheet">
     </head>
     <body>
         <nav>
             <!-- <h1>Hello World!</h1> -->
             <!-- <div> -->
-                <button style="margin-right: 0;"><img style="height: 40px; " src="assets/snarparns.png"></button>
+                <button class="btn-pic"style="margin-right: 0;"><img class="logo-pic" style="height: 40px;" src="assets/snarparns.png"></button>
             <!-- </div> -->
 
             <ul>
-                <li class="nav-li">
-                    <div class="nav_username">
-                        <button class="others" onclick="location.href='about_us.php';">Home</button>
-                        <button class="others" onclick="">My Works</button>
-                        <button class="others" onclick="">About</button>
-                        <button class="contact" onclick="">Contact Me!</button>
-                    </div></li>
-              </ul>
+                <!-- <li class="nav-li"> -->
+                    <!-- <div class="nav_username"> -->
+                        <li><a class="others" href="#Home">Home</a></li>
+                        <li><a class="others" href="#MyWorks">My Works</a></li>
+                        <li><a class="others" onclick="">About</a></li>
+                        <li><a class="others" onclick="">Contact Me!</a></li>
+                    <!-- </div> -->
+                <!-- </li> -->
+            </ul>
         </nav>
 
-        <div class="info">
+        <section class="container" >
+            <div class="info" id="#Home">
+                <img class="info-pic" src="assets/info-pic.png">
+                <p class="info-name">Francine Ruth Balbalosa</p>
+                <ul>
+                    <li>
+                        <button class="info-details"><img class="info-socials" src="assets/gmail.png">          frpbalbalosa@gmail.com</button>  
+                        <button class="info-details"><img class="info-socials" src="assets/facebook.png">          Francine Ruth Balbalosa</button>
+                        <button class="info-details"><img class="info-socials" src="assets/x.png">          snarparns</button>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="works" >
+            <h1 class="title" id="#MyWorks">My Works</h1>
             
-        </div>
+            <div class="carousel">
+                <div class="card">
+                    <img class="work-pic" src="assets/addtocart-logo.png">
+                    <h3 class="work-title">Add to Cart</h3>
+                    <p class="work-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+    
+                <!-- <div class="card">
+                    <h1 class="title">Work 2</h1>
+                </div> -->
+            </div>
+            
+
+
+
+
+
+
+
+        </section>
     </body>
 </html>

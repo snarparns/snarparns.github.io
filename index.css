@@ -14,83 +14,95 @@ body{
     /* background:  #fffdec; */
     padding-top: 6em;
     justify-content: center;
-    overflow: auto;
+    margin: auto;
 }
 
 .info{
-    /* display: grid; */
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5px;
     /* align-items: flex-start; */
     /* background: #7D9D9C; */
-    width: 100%;
-    height: 600px;
-    align-items: center;
+    /* width: 100%;
+    height: 600px; */
+    /* margin: auto; */
     /* justify-content: center; */
     /* margin-top: 30px; */
-    padding-left: 450px;
+    /* padding-left: 400px; */
     /* padding-right: 350px; */
     /* position: relative; */
     /* padding: 5.5em; */
     /* border-radius: 30px; */
 }
 
-.info-pic{
-    height: 500px;
+.info-pic{  
+    height: 450px;
     float: left;
-    margin-top: 50px;
-    /* margin-left: 400px; */
+    margin-top: 30px;
+    margin-left: 150px;
 }
 
 .info-name{
     /* display: relative; */
     /* float: right; */
+    max-width: 1000px;
     font-family: Lexend;
     font-size: 40px;
-    margin-top: 150px;
-    margin-left: 50px;
+    margin: auto;
+    /* margin-top: 150px;
+    margin-left: 50px; */
 }
 
-ul{
-    display: absolute;
+.info-name-socials{
+    /* display: absolute; */
     padding: 10px 0 10px 0;
     /* float: right; */
 }
 
-ul li{
+li{
     max-width: 1000px;
     display: block;
-    margin: 220px 5px 0 502px;
+    /* margin: auto; */
+    /* line-height: 80px; */
+    padding: 15px 15px 15px 15px;
+}
+
+.body-socials{
+    max-width: 1000px;
+    display: inline-block;
+    margin: auto;
     /* line-height: 80px; */
     /* padding: 15px 15px 15px 15px; */
 }
-
 .info-details{
     background: transparent;
     border: transparent;
     display: block;
     font-family: Lexend;
     font-size: 20px;
-    margin-top: 20px;
+    /* margin-bottom: 20px; */
     margin-left: 50px;
 }
 
 .info-details:hover{
     cursor: pointer;
     transition: 0.5s;
-    background: #fff;
+    background: #b4ecc8;
     border: transparent;
     font-family: Lexend;
     font-size: 20px;
     margin-top: 30px;
     margin-left: 50px;
     padding: 15px;
-    /* padding-left: 30px;
-    padding-right: 30px; */
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .info-socials{
     width: 30px;
     height: 30px;
-    margin-top: 10px;
+    /* margin-top: 10px; */
 }
 
 .works{
